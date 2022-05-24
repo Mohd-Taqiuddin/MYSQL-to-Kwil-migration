@@ -11,7 +11,7 @@ Before you continue, ensure you have [Node.js](https://nodejs.org/download) inst
 
 
 1. Clone project
-   > git clone https://github.com/dannysofftie/mysql-mongo-etl.git
+   > git clone (https://github.com/Mohd-Taqiuddin/MYSQL-to-Kwil-migration.git)
 2. Change working directory
    > cd mysql-kwil-etl
 3. Install dependencies
