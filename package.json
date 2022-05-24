@@ -1,0 +1,33 @@
+{
+    "name": "mysql-kwil-etl",
+    "version": "1.4.0",
+    "description": "An ETL Node.js script to migrate MySQL data to KwilDB.",
+    "bin": {
+        "mysql-kwil-etl": "index.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node-dev --respawn --transpileOnly --no-notify src/index.ts",
+        "prepublish": "tsc .",
+        "migrate": "node ."
+    },
+    "keywords": [
+        "mysql",
+        "kwildb",
+        "mysql-migrate"
+    ],
+    "dependencies": {
+        "kwildb": "^1.2.28",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "ora": "^4.0.3",
+        "prompts": "^2.3.0"
+    },
+    "devDependencies": {
+        "@types/mysql": "^2.15.8",
+        "@types/ora": "^3.2.0",
+        "@types/prompts": "^2.0.3",
+        "ts-node-dev": "^1.0.0-pre.44",
+        "typescript": "^3.7.5"
+    }
+}

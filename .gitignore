@@ -1,0 +1,9 @@
+node_modules
+json-data-files
+generated-schema-models
+package-lock.json
+lib
+configs
+*.js
+yarn.lock
+privateKey.json
