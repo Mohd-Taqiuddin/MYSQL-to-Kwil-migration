@@ -26,8 +26,6 @@ You will be prompted to enter authentication credentials for your MySQL database
 
 ---
 
----
-
 You should be ready to migrate your data now.
 
 ---
