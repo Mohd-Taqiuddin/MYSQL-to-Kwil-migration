@@ -3,11 +3,11 @@
 A Node.js script to migrate MySQL data to KwilDB.
 
 
-## Migrate your existing MySQL data into KwilDB
+## Migrate existing MySQL data into KwilDB
 
-Open terminal/command promt and follow any of below methods.
+Open terminal/command prompt and follow any of the following methods.
 
-Before you continue, ensure you have [Node.js](https://nodejs.org/download) installed in your system. See [here](https://nodejs.org/download) for more instructions. If you have it installed, you can continue below.
+Before you continue, ensure that you have [Node.js](https://nodejs.org/download) installed on your system. See [here](https://nodejs.org/download) for more instructions. If you have it installed, you can continue below.
 
 
 1. Clone project
@@ -17,13 +17,13 @@ Before you continue, ensure you have [Node.js](https://nodejs.org/download) inst
 3. Install dependencies
    > npm install
 4. Copy private key from KwilDB and paste it in privateKey.json
-5. Copy your secret from KwilDb and paste it in lib/migrate.js (line 13) and also in src/lib/migrate.ts(if previous doesn't work)
+5. Copy your secret from KwilDb and paste it in lib/migrate.js (line 13) and also in src/lib/migrate.ts (if previous doesn't work)
 6. Make it happen :wink:
    > npm run migrate
 
 ---
 
-You will be prompted to enter authentication credentials for your MySQL database. Ensure you have access credentials that have read/write roles enabled, or else you will encounter errors.
+You will be prompted to enter authentication credentials for your MySQL database. Ensure that you have access credentials that have read/write roles enabled, or else you will encounter errors.
 
 ---
 
