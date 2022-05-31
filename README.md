@@ -5,7 +5,7 @@ A Node.js script to migrate MySQL data to KwilDB.
 
 ## Migrate existing MySQL data into KwilDB
 
-Open terminal/command prompt and follow any of the following methods.
+Open terminal/command prompt and follow the below process.
 
 Before you continue, ensure that you have [Node.js](https://nodejs.org/download) installed on your system. See [here](https://nodejs.org/download) for more instructions. If you have it installed, you can continue below.
 
